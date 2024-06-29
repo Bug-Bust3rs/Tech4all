@@ -21,6 +21,8 @@
 
 
 import { SpeakerWaveIcon, ChatBubbleLeftRightIcon, BookOpenIcon } from '@heroicons/react/20/solid';
+import log_img from '../public/disableP.png'
+import Image from 'next/image';
 
 const features = [
     {
@@ -68,12 +70,12 @@ export default function Features() {
                             </dl>
                         </div>
                     </div>
-                    <img
-                        src="https://res.cloudinary.com/dafdencvh/image/upload/v1719672542/Screenshot_276_x8ubst.png"
+                    <Image
+                        src={log_img}
                         alt="Product screenshot"
-                        className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-                        width={2432}
-                        height={1442}
+                        className="w-[35rem] mt-10 max-w-none rounded-2xl shadow-xl ring-1 ring-gray-400/10 sm:w-[45rem] md:-ml-4 lg:-ml-0"
+                        width={2000}
+                        height={1000}
                     />
                 </div>
             </div>
