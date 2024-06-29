@@ -29,6 +29,8 @@ const FileUpload: React.FC = () => {
         `${process.env.NEXT_PUBLIC_BACKENDURL}/api/v0.1/upload`,
 
         formData,
+
+        
         {
           headers: {
             "Content-Type": "multipart/form-data",
@@ -53,26 +55,33 @@ const FileUpload: React.FC = () => {
   };
   return (
     <main>
-    <div className='w-full h-screen flex' >
-    <div className='grid grid-cols-1 md:grid-cols-2 m-auto h-[500px] sm:max-w-[900px] rounded-2xl'>
-       <div className='w-full  h-[450px] hidden md:block '>
-         <Image className="w-full mt-14 ml-2 h-[380px]" src={log_img} alt="/" />   
-       </div>
-       <div className='p-4 flex flex-col justify-around'> 
-      <form onSubmit={handleFileUpload}>
-      <h2 className='text-4xl font-medium text-center mb-10'>Upload Your <span className='text-violet-700'>File</span></h2>
-               <div>
-                   <input 
-                   className='border p-2 ml-7 mt-4 rounded-xl bg-violet-400' 
-                   type='file'
-                   onChange={handleFileChange}
-                   />
-               </div> 
-               <button 
-               className=" w-52 mt-8 ml-20 active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all p-2 rounded-xl  bg-violet-700 text-white text-lg font-bold"
-               type="submit"
-               >Upload
-               </button>  
+      <div className="w-full h-screen flex">
+        <div className="grid grid-cols-1 md:grid-cols-2 m-auto h-[500px] sm:max-w-[900px] rounded-2xl">
+          <div className="w-full  h-[450px] hidden md:block ">
+            <Image
+              className="w-full mt-14 ml-2 h-[380px]"
+              src={log_img}
+              alt="/"
+            />
+          </div>
+          <div className="p-4 flex flex-col justify-around">
+            <form onSubmit={handleFileUpload}>
+              <h2 className="text-4xl font-medium text-center mb-10">
+                Upload Your <span className="text-violet-700">File</span>
+              </h2>
+              <div>
+                <input
+                  className="border p-2 ml-7 mt-4 rounded-xl bg-violet-400"
+                  type="file"
+                  onChange={handleFileChange}
+                />
+              </div>
+              <button
+                className=" w-52 mt-8 ml-20 active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all p-2 rounded-xl  bg-violet-700 text-white text-lg font-bold"
+                type="submit"
+              >
+                Upload
+              </button>
             </form>
           </div>
         </div>
