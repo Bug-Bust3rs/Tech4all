@@ -105,5 +105,11 @@ We welcome contributions from everyone. Here’s how you can help:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
+### Contributors
+<a href="https://github.com/Bug-Bust3rs/tech4all/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Bug-Bust3rs/tech4all" />
+</a>
+
+---
 
 Together, we can build a more inclusive digital world. Thank you for being a part of Tech4All.
