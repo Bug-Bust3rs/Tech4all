@@ -77,9 +77,11 @@ const FileUpload: React.FC = () => {
           </div>
         </div>
     </div>
+    <div className= " flex justify-center items-center h-screen ">
       {audioData && (
         <audio controls src={audioData} />
       )}
+      </div>
     </main>
   );
 };
