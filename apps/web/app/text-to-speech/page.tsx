@@ -77,7 +77,7 @@ const FileUpload: React.FC = () => {
                 />
               </div>
               <button
-                className=" w-52 mt-8 ml-20 active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all p-2 rounded-xl  bg-violet-700 text-white text-lg font-bold"
+                className=" w-52 mt-8 ml-20 active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all p-2 rounded-3xl  bg-violet-700 text-white text-lg font-bold"
                 type="submit"
               >
                 Upload
@@ -86,7 +86,7 @@ const FileUpload: React.FC = () => {
           </div>
         </div>
     </div>
-    <div className= " flex justify-center items-center h-screen ">
+    <div className= "flex items-center justify-center h-screen ">
       {audioData && (
         <audio controls src={audioData} />
       )}
