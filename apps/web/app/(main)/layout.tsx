@@ -8,8 +8,8 @@ export default function RootLayout({
 }): JSX.Element {
   const router = useRouter();
   const { state } = useAuthContext();
-  // if (state.user == null) {
-  //   router.push("/login");
-  // }
+  if (state.user == null) {
+    router.push("/login");
+  }
   return <div>{children}</div>;
 }
