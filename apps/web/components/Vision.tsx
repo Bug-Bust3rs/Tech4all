@@ -4,17 +4,17 @@ import { AcademicCapIcon, BookOpenIcon, LightBulbIcon } from '@heroicons/react/2
 const features = [
     {
         name: 'Inclusive Learning',
-        description: 'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
+        description: 'Our website provides inclusive learning by ensuring that all users, regardless of their abilities, can access and understand the content. Through features like text-to-speech, adjustable font sizes, and color contrasts, we strive to create an environment where everyone can learn effectively and navigate easily.',
         icon: AcademicCapIcon,
     },
     {
         name: 'Enhance the reading Experience',
-        description: 'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
+        description: 'Our website enhances the reading experience by converting written text into spoken words, making content accessible and easily understandable for all users, including those with visual impairments. ',
         icon: BookOpenIcon,
     },
     {
         name: 'Empower Learning',
-        description: 'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
+        description: 'Our website empowers learning for individuals with disabilities through integrated features designed to enhance accessibility and inclusivity.',
         icon: LightBulbIcon,
     },
 ];
@@ -29,8 +29,7 @@ export default function Vision() {
                         Our vision
                     </p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-                        pulvinar et feugiat blandit at. In mi viverra elit nunc.
+                    Creating an Inclusive Digital Experience for All
                     </p>
                 </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
