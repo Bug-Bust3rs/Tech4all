@@ -588,7 +588,7 @@ export default function Hero() {
                         ))}
                     </div>
                     <div className="flex lg:flex-1 lg:justify-end lg:items-center lg:gap-x-6">
-                        <a href="#" className="text-sm font-semibold leading-6 text-gray-900" data-hover-read="log in">
+                        <a href="/login" className="text-sm font-semibold leading-6 text-gray-900" data-hover-read="log in">
                             Log in <span aria-hidden="true">&rarr;</span>
                         </a>
                         <button
