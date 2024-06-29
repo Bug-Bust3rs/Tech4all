@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -b",
     "start": "ts-node src/index.ts",
-    "dev": "nodemon src/index.ts",
+    "dev": "npx prisma generate && nodemon src/index.ts",
     "vercel-build": "prisma generate",
     "lint": "eslint src/**/*.ts",
     "format": "eslint src/**/*.ts --fix"
